@@ -9,6 +9,7 @@ app.listen(PORT, () => {
     console.log("server corriendo en http://localhost:8080");
 })
 
+// PRIMERA RUTA DE PRUEBA
 app.get("/ping", (req, res) => {
     console.log("pong")
     res.send("pong")
